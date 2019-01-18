@@ -1,10 +1,11 @@
 <div class="height_container">
   <div class="app_container">
     <div class="menu">
-      <h2><i class="material-icons">menu</i>MENU</h2>
+      <h2>
+        <i class="material-icons">menu</i>MENU</h2>
       <ul>
-        <li class="selected" routerLink="/customers">CUSTOMERS</li>
-        <li routerLink="/calendar">CALENDAR</li>
+        <li routerLink="/customers" [routerLinkActive]="'selected'">CUSTOMERS</li>
+        <li routerLink="/calendar" [routerLinkActive]="'selected'">CALENDAR</li>
       </ul>
     </div>
     <div class="wrapper">
