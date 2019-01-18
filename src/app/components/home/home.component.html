@@ -1,5 +1,40 @@
 <div class="container">
-  <h1 class="title">
-    {{ 'PAGES.HOME.TITLE' | translate }}
-  </h1>
+  <div class="header">
+    <h1>CUSTOMERS</h1>
+  </div>
+  <div class="content">
+    <div class="controls">
+      <div class="options">
+        <div class="control">
+          <i class="material-icons">filter_list</i>FILTER
+        </div>
+        <div class="control">
+          <i class="material-icons">sort_by_alpha</i>SORT
+        </div>
+        <div class="control">
+          <i class="material-icons">refresh</i>RELOAD
+        </div>
+      </div>
+      <div class="buttons">
+        <button routerLink="/customers/new">
+          <i class="material-icons">add</i>ADD CUSTOMER</button>
+      </div>
+      <div class="search_box">
+        <i class="material-icons">search</i>
+        <input type="search" placeholder="Search" />
+      </div>
+    </div>
+
+    <div class="large_panel customer_listing" routerLink="/customers/jamie">
+      <div class="panel_title">
+        <h2>JAMIE SUAREZ</h2>
+      </div>
+    </div>
+
+    <div class="large_panel customer_listing" routerLink="/customers/jamie">
+      <div class="panel_title">
+        <h2>SAMMY G</h2>
+      </div>
+    </div>
+  </div>
 </div>

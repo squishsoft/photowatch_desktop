@@ -1,0 +1,38 @@
+form {
+  display: flex;
+
+  .left, .right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .left {
+    border-right: 1px solid #f0f0f0;
+  }
+
+  .input_group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+
+  label {
+    margin-bottom: 10px;
+  }
+
+  input[type='text'], input[type='tel'] {
+    padding: 5px;
+    font-size: .8em;
+  }
+
+  .right input {
+    margin-bottom: 5px;
+  }
+
+  textarea {
+    flex: 1;
+    border: 1px solid #e0e0e0;
+  }
+}
